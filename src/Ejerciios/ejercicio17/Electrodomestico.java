@@ -1,4 +1,4 @@
-package Ejercicios.ejercicio17;
+package Ejerciios.ejercicio17;
 
 
 public class Electrodomestico {

@@ -1,11 +1,11 @@
 
-package Ejercicios.ejercicio17;
+package Ejerciios.ejercicio17;
 
 public class Ejecutable {
- 
+
     public static void main(String[] args) {
         Electrodomestico listaElectrodomesticos[]=new Electrodomestico[10];
-   
+
         listaElectrodomesticos[0]=new Electrodomestico(200, 60, 'C', "Verde");
         listaElectrodomesticos[1]=new Lavadora(150, 30);
         listaElectrodomesticos[2]=new Television(500, 80, 'E', "negro", 42, false);
@@ -20,10 +20,10 @@ public class Ejecutable {
         double sumaElectrodomesticos=0;
         double sumaTelevisiones=0;
         double sumaLavadoras=0;
-   
+
         for(int i=0;i<listaElectrodomesticos.length;i++){
-  
-   
+
+
             if(listaElectrodomesticos[i] instanceof Electrodomestico){
                 sumaElectrodomesticos+=listaElectrodomesticos[i].precioFinal();
             }
@@ -45,5 +45,5 @@ public class Ejecutable {
         System.out.println(">>><<<");
         System.out.println("Gracias por comprar ;)");
     }
-   
+
 }

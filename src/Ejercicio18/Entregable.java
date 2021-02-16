@@ -7,8 +7,7 @@ package Ejercicio18;
 
 /**
  *
- * @author Brayan Gomez
- */
+ * @author Brayan Gomez*/
 
 public interface Entregable {
   
